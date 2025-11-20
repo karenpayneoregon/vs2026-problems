@@ -1,1 +1,30 @@
 Started 11/20/2025
+
+Repair failed to fix issues
+
+After repair see F3.png, Github Copilot window see below
+
+An exception was encountered while constructing the content of this frame.  This information is also logged in "C:\Users\paynek\AppData\Roaming\Microsoft\VisualStudio\18.0_ed174b18\ActivityLog.xml".
+
+Exception details:
+Microsoft.VisualStudio.Composition.CompositionFailedException: Expected 1 export(s) with contract name "Microsoft.VisualStudio.Copilot.UI.IViewModelServices" but found 0 after applying applicable constraints.
+   at Microsoft.VisualStudio.Composition.ExportProvider.GetExports(ImportDefinition importDefinition)
+   at Microsoft.VisualStudio.Composition.ExportProvider.GetExports[T,TMetadataView](String contractName, ImportCardinality cardinality)
+   at Microsoft.VisualStudio.Composition.ExportProvider.GetExport[T,TMetadataView](String contractName)
+   at Microsoft.VisualStudio.Composition.ExportProvider.GetExportedValue[T]()
+   at Microsoft.VisualStudio.ComponentModelHost.ComponentModel.GetService[T]()
+   at Microsoft.VisualStudio.Conversations.UI.Internal.ConversationsUIPackage.<InitializeToolWindowAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Shell.AsyncPackage.<>c__DisplayClass19_0.<<Microsoft-VisualStudio-Shell-Interop-IVsAsyncToolWindowFactory-InitializeToolWindowAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.VisualStudio.Services.VsTask.RethrowException(AggregateException e)
+   at Microsoft.VisualStudio.Services.VsTask.InternalGetResult(Boolean ignoreUIThreadCheck)
+   at Microsoft.VisualStudio.Shell.VsTaskLibraryHelper.<>c__DisplayClass56_0.<<CancelWhenCancellationRequested>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.VisualStudio.Services.VsTask.RethrowException(AggregateException e)
+   at Microsoft.VisualStudio.Services.VsTask.InternalGetResult(Boolean ignoreUIThreadCheck)
+   at Microsoft.VisualStudio.Platform.WindowManagement.WindowFrame.<CreateToolWindowAsync>d__244.MoveNext()
