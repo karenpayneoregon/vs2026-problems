@@ -4,7 +4,10 @@ Restored C:\OED\DotnetLand\VS2026\Solution1\ConsoleApp2\ConsoleApp2.csproj (in 5
 Restored C:\OED\DotnetLand\VS2026\Solution1\ConsoleApp1\ConsoleApp1.csproj (in 508 ms).
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : You must install .NET to run this application.
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : App: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\csc.exe
+                                                                                         : Karen note, csc does exists
+
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Architecture: x64
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : App host version: 10.0.0
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : .NET location: Not found
@@ -14,6 +17,7 @@ Restored C:\OED\DotnetLand\VS2026\Solution1\ConsoleApp1\ConsoleApp1.csproj (in 5
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :     C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :   Environment variable:
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :     DOTNET_ROOT = C:\Program Files
+                                                                                         : Karen note the above does not exists
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Learn more:
 2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : https://aka.ms/dotnet/app-launch-failed
