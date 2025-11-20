@@ -1,0 +1,42 @@
+1>------ Rebuild All started: Project: ConsoleApp2, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: ConsoleApp1, Configuration: Debug Any CPU ------
+Restored C:\OED\DotnetLand\VS2026\Solution1\ConsoleApp2\ConsoleApp2.csproj (in 508 ms).
+Restored C:\OED\DotnetLand\VS2026\Solution1\ConsoleApp1\ConsoleApp1.csproj (in 508 ms).
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : You must install .NET to run this application.
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : App: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\csc.exe
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Architecture: x64
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : App host version: 10.0.0
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : .NET location: Not found
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : The following locations were searched:
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :   Application directory:
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :     C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :   Environment variable:
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :     DOTNET_ROOT = C:\Program Files
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Learn more:
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : https://aka.ms/dotnet/app-launch-failed
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Download the .NET runtime:
+2>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win-x64&os=win10&apphost_version=10.0.0
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : You must install .NET to run this application.
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : App: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\csc.exe
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Architecture: x64
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : App host version: 10.0.0
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : .NET location: Not found
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : The following locations were searched:
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :   Application directory:
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :     C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :   Environment variable:
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :     DOTNET_ROOT = C:\Program Files
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Learn more:
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : https://aka.ms/dotnet/app-launch-failed
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error :
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : Download the .NET runtime:
+1>C:\Program Files\dotnet\sdk\10.0.100\Roslyn\Microsoft.CSharp.Core.targets(84,5): error : https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win-x64&os=win10&apphost_version=10.0.0
+========== Rebuild All: 0 succeeded, 2 failed, 0 skipped ==========
+========== Rebuild completed at 8:05 AM and took 25.532 seconds ==========
