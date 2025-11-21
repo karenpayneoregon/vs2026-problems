@@ -1,0 +1,77 @@
+The target process exited without raising a CoreCLR started event. 
+Ensure that the target process is configured to use .NET Core. This may be expected if the target process did not run on .NET Core.
+
+Description: A .NET application failed.
+Application: csc.exe
+Path: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\csc.exe
+Message: You must install .NET to run this application.
+
+App: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\csc.exe
+Architecture: x64
+App host version: 10.0.0
+.NET location: Not found
+
+The following locations were searched:
+  Application directory:
+    C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\
+  Environment variable:
+    DOTNET_ROOT = C:\Program Files
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+Download the .NET runtime:
+https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win-x64&os=win10&apphost_version=10.0.0
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Description: A .NET application failed.
+Application: VBCSCompiler.exe
+Path: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\VBCSCompiler.exe
+Message: You must install .NET to run this application.
+
+App: C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\VBCSCompiler.exe
+Architecture: x64
+App host version: 10.0.0
+.NET location: Not found
+
+The following locations were searched:
+  Application directory:
+    C:\Program Files\dotnet\sdk\10.0.100\Roslyn\bincore\
+  Environment variable:
+    DOTNET_ROOT = C:\Program Files
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+Download the .NET runtime:
+https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win-x64&os=win10&apphost_version=10.0.0
+
+-----------------------------------------------------------------------------------------------------------------
+Windows Installer reconfigured the product. Product Name: Microsoft.NET.Runtime.Emscripten.Sdk (x64). Product Version: 7.0.20.0. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+-----------------------------------------------------------------------------------------------------------------
+The Windows Security Center Service was unable to load instances of FirewallProduct from datastore.
+-----------------------------------------------------------------------------------------------------------------
+incredbuild
+A write fault occurred on the network. 
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
